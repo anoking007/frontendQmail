@@ -1,7 +1,10 @@
 import React from 'react'
+import { Header } from '../component/Header'
 
 export const Dashboard = () => {
-  return (
-    <div>Dashboard</div>
+  return (<><div>
+    <Header/>
+</div></>
+    
   )
 }
