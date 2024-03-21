@@ -11,7 +11,8 @@ function App() {
   <Routes>
   <Route path="/signup" element={<SignUp></SignUp>}></Route>
   <Route path="/signin" element={<SignIn></SignIn>}></Route>
-  <Route path='/mailDashboard' element={<Dashboard></Dashboard>}></Route>
+  <Route path='/maildashboard' element={<Dashboard></Dashboard>}></Route>
+  <Route path='/sendmail' element={<SendMail></SendMail>}></Route>
 
   </Routes>
   
